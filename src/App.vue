@@ -35,7 +35,17 @@ export default {
     ]),
   mounted(){
     this.getCharacters()
+    console.log("mounted");
   },
+  setup() {
+    console.log("setup");
+  },
+  created() {
+    console.log("created");
+  },
+  updated() {
+    console.log("updated");
+  }
 }
 </script>
 
